@@ -1,13 +1,13 @@
 # Studio/gradle Guide
 
 - from flutter project:
-```bash
+```zsh
 flutter clean
 flutter pub get
 ```
 
 - from home:
-```bash
+```zsh
 cd dev/android-studio/bin/
 ./studio
 ```
@@ -18,7 +18,7 @@ cd dev/android-studio/bin/
 
 - refresh dependencies: 
 
-```bash
+```zsh
 cd android
 ./gradlew --refresh-dependencies
 ```

@@ -3,7 +3,7 @@
 
 ## Creating a Branch
 To create a new branch:
-```bash
+```zsh
 git checkout -b MY_BRANCH
 ```
 
@@ -12,11 +12,11 @@ git checkout -b MY_BRANCH
 To push your local branch to the remote repository:
 
 - **First time**:
-    ```bash
+    ```zsh
     git push origin -u MY_BRANCH
     ```
 - **Subsequent times**:
-    ```bash
+    ```zsh
     git push
     ```
 
@@ -24,19 +24,19 @@ To push your local branch to the remote repository:
 To track a remote branch:
 
 1. Update local references to remote repository, and view all remote branches:
-    ```bash
+    ```zsh
     git fetch --prune
     git branch -r
     ```
 2. Check out the remote branch and create a corresponding local branch:
-    ```bash
+    ```zsh
     git checkout -b MY_BRANCH origin/MY_BRANCH
     ```
 
 ## Merging a Branch
 To merge when you are on the local branch:
 
-```bash
+```zsh
 git checkout main
 git pull origin main
 git merge MY_BRANCH

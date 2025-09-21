@@ -32,12 +32,12 @@ flutter build appbundle --dart-define-from-file=lib/api-keys.json
 
 
 1. **Build the app ipa**
-    ```bash
+    ```zsh
     flutter build ipa --dart-define-from-file=lib/api-keys.json
     ```
 
 2. **Open the Runner to validate and distribute**
-    ```bash
+    ```zsh
     open build/ios/archive/Runner.xcarchive
     ```
 
