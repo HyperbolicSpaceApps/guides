@@ -2,12 +2,14 @@
 Can be done after release
 
 - take screenshot from physical device
-- move it to icons/screenshots/ios for the record
+- save them in temp file
+- open with kolour paint and resize (required: 10-inch tablet sizes)
+    - image -> resize -> smooth scale / keep aspect ratio / width = 1640
 - log in to Google Play Console
-- “Grow” “Store presence” “Default store listing.” Scroll down to “Phone”
+    - Grow users: Store presence → Store listing → Edit → Graphics
 
 # iOS Screenshots Guide
-Has to be done during release
+Following has to be done before release
 
 - open Simulator app
 - File -> Open Emulator -> iPhone 11 Pro Max/iPad Pro 13-inch (M4)
