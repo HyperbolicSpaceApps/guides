@@ -10,11 +10,11 @@ Can be done after release
 Has to be done during release
 
 - open Simulator app
-- File -> Open Emulator -> iPhone 11 Pro Max/iPad Pro 13-inch (M4)
+- File -> Open Emulator -> iPhone 15 Pro Max/iPad Pro 13-inch (M4)
+    - Requirements here: https://developer.apple.com/help/app-store-connect/reference/screenshot-specifications/
     - if needed to add another, check requirements from app store connect + https://iosref.com/res
 - select device in vs code (lower right corner)
 - flutter run --dart-define-from-file=lib/api-keys.json
-- Take a screenshot (upper right of emulator window) -> move it from Desktop to folder icons/screenshots/ios for the record
+- Take a screenshot (upper right of emulator window) -> saved to Desktop by default
 - upload during release of new version (see guide to release)
 
-Requirements here: https://developer.apple.com/help/app-store-connect/reference/screenshot-specifications/
