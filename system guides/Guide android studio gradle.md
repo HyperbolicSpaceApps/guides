@@ -1,26 +1,28 @@
 # Studio/gradle Guide
 
-- from flutter project:
-```zsh
-flutter clean
-flutter pub get
-```
-
-- from home:
+## Open Android Studio
 ```zsh
 cd dev/android-studio/bin/
 ./studio
 ```
 
-- wait until background tasks are done
-- from settings: install new android studio version (may be several)
-- run AGP Upgrade assistant
+## Studio/gradle Upgrades
 
-- refresh dependencies: 
+- wait until background tasks are done (bottom bar: indexing, etc)
+- from settings (upper right corner): install new android studio version (may be several)
+- run AGP Upgrade assistant (from Tools)
+
+## Refresh dependencies: 
 
 ```zsh
 cd android
 ./gradlew --refresh-dependencies
+```
+
+## Clean flutter
+```zsh
+flutter clean
+flutter pub get
 ```
 
 ## set up java version (for now 17 works best)

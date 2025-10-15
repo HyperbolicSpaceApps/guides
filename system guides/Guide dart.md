@@ -5,7 +5,6 @@ flutter clean
 flutter pub get
 ```
 
-
 ## Check for updates
 ```zsh
 flutter upgrade
