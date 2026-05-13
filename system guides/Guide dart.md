@@ -29,3 +29,9 @@ pod deintegrate
 gem install cocoapods
 pod update
 ```
+
+If run issue with ironsourceSDK, try removing from Podfile:
+
+```zsh
+use_frameworks!
+```
